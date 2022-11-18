@@ -16,7 +16,12 @@ URL shortener API built with NestJS and PostgreSql as Database
 - [x]  Return shortened URL
 
 ## Testing the API
-Run this command to make a sample POST request:
+1.Add DB connection details in /src/app.module file:
+  - [x]    database: 
+  - [x]    username: 
+  - [x]    password: 
+   
+2.Run this command to make a sample POST request:
 ```
 curl -d "{\"longUrl\":\"http://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.co.uk\"}" -H "Content-Type: application/json" http://localhost:3000/shorten
 ```
