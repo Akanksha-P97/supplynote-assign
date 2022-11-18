@@ -17,9 +17,9 @@ URL shortener API built with NestJS and PostgreSql as Database
 
 ## Testing the API
 1.Add DB connection details in /src/app.module file:
-  - [x]    database: 
-  - [x]    username: 
-  - [x]    password: 
+  - [x]    database 
+  - [x]    username 
+  - [x]    password 
    
 2.Run this command to make a sample POST request:
 ```
